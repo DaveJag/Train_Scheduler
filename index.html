@@ -12,12 +12,63 @@
 
 </head>
 <body>
-<div id="container">
+    <div id = "container">
+        <div id = "title">
+
+        </div> <!-- end title div -->
 
 
 
+        <div id = "schedule">
+            <p class="tableHeader">Current Train Schedule</p>
 
-</div> <!-- end container div
+            <table class="trainScheduleTable">
+                <tr>
+                    <th class="trainNameCol">Train Name</th>
+                    <th class="destinationCol">Destination</th>
+                    <th class="frequencyCol">Frequency (min)</th>
+                    <th class="nextArrivalCol">Next Arrival</th>
+                    <th class="minutesAwayCol">Minutes Away</th>
+                </tr>
+                <tr>
+                    <td>sample data</td>
+                    <td>sample data</td>
+                    <td>sample data</td>
+                    <td>sample data</td>
+                    <td>sample data</td>
+                </tr>
+            </table>        
+        </div> <!-- end schedule div -->
+
+
+
+        <div id = "addTrain">
+            <p class="tableHeader">Add Train</p>
+            <form role="form">
+                <div class="formGroup">
+                    <label for="text" class="formLabel">Train Name</label><br>
+                    <input type="text" class="formControl" id="nameInput">
+                </div>
+                <div class="formGroup">
+                    <label for="text" class="formLabel">Destination</label><br>
+                    <input type="text" class="formControl" id="destinationInput">
+                </div>
+                <div class="formGroup">
+                    <label for="text" class="formLabel">First Train Time (HH:mm - military time)</label><br>
+                    <input type="text" class="formControl" id="firstTrainTimeInput">
+                </div>
+                <div class="formGroup">
+                    <label for="comment" class="formLabel">Frequency (min)</label><br>
+                    <input type="text" class="formControl" id="frequencyInput">
+                </div>
+                <button type="submit" class="submitButton" id="addTrainButton">Submit</button>
+            </form>
+
+
+        </div> <!-- end addTrain div -->
+
+
+    </div> <!-- end container div
 
 </body>
 </html>

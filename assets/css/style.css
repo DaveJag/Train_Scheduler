@@ -1,1 +1,129 @@
 /* Dave Jagodowski - HW07 - Train Scheduler */
+
+body {
+	font-family: "Calibri", "Arial", "Helvetica", "Sans Serif";
+	color: #3F3F3F;
+	font-size: 16pt;
+}
+
+h1 {
+	font-size: 2.5em;
+
+}
+
+h2 {
+	font-size: 1.1em;
+}
+
+.titleClass {
+    	padding-top: 50px;
+    	line-height: 12px;
+}
+
+.subtitleClass {
+	line-height: 0px;
+	padding-top: 35px;
+
+}
+
+#container {
+	min-width: 800px;
+    min-height: 800px;
+	margin: 20px;
+}
+
+#title {
+	display: block;
+	width:100%;
+	min-height: 150px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #0094FF;
+    color: white; 
+    text-align: center;
+}
+
+#schedule {
+	margin-bottom: 50px;
+	background-color: #white; 
+}
+
+#addTrain {
+	background-color: #E5E5E5; 
+}
+
+
+/* Set Table Properties  */
+
+table {
+	table-layout: fixed;
+	border: 1px solid gray;
+	border-collapse: collapse;
+	width: 99%;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th {
+	height: 15px;
+	text-align: left;
+	vertical-align: center;
+	padding: 15px;
+	border-bottom: 1px solid gray; /* Puts a border line under the header row */
+	font-size: .8em;
+	font-weight: bold;
+}
+
+td {
+	height: 15px;
+	vertical-align: center;
+	padding: 15px;
+    border-bottom: 1px solid gray; /* Puts a border line under each row */
+    font-size: .8em;
+
+}
+
+.tableHeader {
+	color: white;
+	background-color: #0094FF;
+	line-height: 40px;
+	font-weight:bold;
+	margin-bottom: 6px;
+	padding-left: 10px;
+
+}
+
+/* Styles for the Add Train form */
+
+.formGroup {
+	font-size: .8em;
+	padding: 15px;
+}
+
+.formControl {
+	display: block;
+    width: 99%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.formLabel {
+	font-size: .9em;
+	font-weight: bold;
+	line-height: 15px;
+}
+
+.submitButton {
+	padding: 5px;
+    background-color: #0094FF;
+	color: white;
+	padding: 4px 24px;
+	text-align: center;
+	font-weight: bold;
+	display: inline-block;
+	font-size: .9em;
+	border-radius: 8px;
+	margin: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
