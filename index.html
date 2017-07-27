@@ -7,8 +7,25 @@
       <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> 
       <link rel="stylesheet" type="text/css" href="assets/css/style.css">
       <!-- load jQuery before other scripts-->
+      <script src="https://www.gstatic.com/firebasejs/4.1.5/firebase.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
       <script type="text/javascript" src="assets/javascript/trains.js"></script>
+      <script src="assets/javascript/moment.js"></script>
+      <script>
+          moment().format();
+      </script>
+      <script>
+        // Initialize Firebase
+        var config = {
+        apiKey: "AIzaSyCQpZaawv7YnkYslDCY5m-oqhslS5VVqFU",
+        authDomain: "train-scheduler-59f49.firebaseapp.com",
+        databaseURL: "https://train-scheduler-59f49.firebaseio.com",
+        projectId: "train-scheduler-59f49",
+        storageBucket: "",
+        messagingSenderId: "711279604077"
+      };
+      firebase.initializeApp(config);
+      </script>
 
 </head>
 <body>
@@ -68,7 +85,12 @@
         </div> <!-- end addTrain div -->
 
 
-    </div> <!-- end container div
+
+    </div> <!-- end container div -->
+
+    
+    
+
 
 </body>
 </html>
